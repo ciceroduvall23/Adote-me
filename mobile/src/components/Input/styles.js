@@ -25,13 +25,11 @@ export const ButtonLogin = styled.TouchableOpacity`
   border-radius: 8;
   align-items: center;
   justify-content: center;
-  background-color:#723D2B;
-  top:230px;
-  
+  background-color: #723d2b;
+  top: 230px;
 `;
 
 export const ButtonGmail = styled.TouchableOpacity`
-
   width: 308px;
   height: 53px;
   flex-direction: row;
@@ -41,14 +39,34 @@ export const ButtonGmail = styled.TouchableOpacity`
   border-radius: 8;
   align-items: center;
   justify-content: center;
-  background-color:#723D2B;
-  top:120px;
-  
+  background-color: #723d2b;
+  top: 80px;
+`;
+export const ButonRegister = styled.TouchableOpacity`
+  width: 308px;
+  height: 53px;
+  flex-direction: row;
+  position: relative;
+  max-height: 100px;
+  left: 65px;
+  border-radius: 8;
+  align-items: center;
+  justify-content: center;
+  background-color: #723d2b;
+  top: 95px;
 `;
 
 
+
 export const ButtonText = styled.Text`
-font-size: 20px;
-color: ${props => props.color};
-font-style:  italic;
+  font-size: 20px;
+  color: ${(props) => props.color};
+  font-style: italic;
+`;
+export const TextFooter = styled.Text`
+  font-size: 20px;
+  top:300px;
+  text-align:center;
+  color: ${(props) => props.color};
+  font-style: italic;
 `;
